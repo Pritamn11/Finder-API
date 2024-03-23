@@ -56,7 +56,7 @@ python manage.py runserver
 
 ### Usage Instructions
 
- 1) Use the specified API endpoint (/api/events/{latitude}/{longitude}/{date}/) to retrieve events for a specific date and location.
+ 1) Use the specified API endpoint (/event/find/{latitude}/{longitude}/{date}/) to retrieve events for a specific date and location.
 
  2) Replace {latitude}, {longitude}, and {date} with appropriate values in the API URL.
     
