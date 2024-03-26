@@ -48,7 +48,19 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-#### STEPS 05 - Start the Development Server
+#### STEPS 05 - Run load.py Script
+
+```bash
+Before running migrations, execute the load.py script to populate the database with data from the CSV file:
+
+>> python manage.py shell
+>> from base.models import *
+>> from scripts.load import run
+
+```
+
+
+#### STEPS 06 - Start the Development Server
 
 ```bash
 python manage.py runserver
